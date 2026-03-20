@@ -3,36 +3,40 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
-const projects = [
+interface Project {
+  title: string;
+  category: string;
+  tools: string;
+  image: string;
+  liveLink?: string;
+}
+
+const projects: Project[] = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Airbnb Rental Platform",
+    category: "Full-Stack Web App",
+    tools: "Node.js, Express.js, MongoDB, Cloudinary",
+    image: "/images/Airbnb.png",
+    liveLink: "https://airbnb-inspired-property-rental-platform.onrender.com/listings",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "TradeFlow",
+    category: "Real-Time Trading Platform",
+    tools: "React.js, Node.js, MongoDB, Socket.io",
+    image: "/images/Trading.png",
+    liveLink: "https://trade-flow-real-time-full-stack-sto.vercel.app/dashboard",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
+    title: "Zoom Video Platform",
+    category: "Video Conferencing App",
+    tools: "React.js, Node.js, WebRTC, Socket.io",
     image: "/images/bond.png",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
+    title: "ChatGPT Clone",
+    category: "AI Conversational Web App",
+    tools: "React.js, Node.js, Express.js, OpenAI API",
     image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
   },
 ];
 
@@ -112,10 +116,26 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.liveLink && (
+                          <a
+                            href={project.liveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="live-btn"
+                          >
+                            Live Link
+                          </a>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      {project.liveLink ? (
+                        <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                          <WorkImage image={project.image} alt={project.title} />
+                        </a>
+                      ) : (
+                        <WorkImage image={project.image} alt={project.title} />
+                      )}
                     </div>
                   </div>
                 </div>

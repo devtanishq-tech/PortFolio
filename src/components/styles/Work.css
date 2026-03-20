@@ -329,3 +329,23 @@
     max-height: 250px;
   }
 }
+
+/* ── Live Link Button ── */
+.live-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1aa3ff, #0a4f8f);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+
+.live-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(26, 163, 255, 0.4);
+}
