@@ -28,7 +28,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/tanishq"
+              href="https://www.linkedin.com/in/tanishq-jaiswal-5650432b6/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -36,7 +36,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://leetcode.com/tanishq"
+              href="https://leetcode.com/u/9nhimbuT/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
