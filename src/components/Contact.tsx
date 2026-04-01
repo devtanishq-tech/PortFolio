@@ -44,7 +44,7 @@ const Contact = () => {
               LeetCode <MdArrowOutward />
             </a>
             <a
-              href="https://tanishq.dev"
+              href="https://port-folio-sandy-psi.vercel.app/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
