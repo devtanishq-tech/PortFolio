@@ -20,10 +20,10 @@ const projects: Project[] = [
     liveLink: "https://airbnb-inspired-property-rental-platform.onrender.com/listings",
   },
   {
-    title: "TradeFlow-Full Stack Application",
-    category: "Real-Time Trading Platform",
-    tools: "React.js, Node.js, MongoDB, Socket.io",
-    image: "/images/Trading.png",
+    title: "TradeFlow",
+    category: "Trading Application",
+    tools: "React.js, Node.js, MongoDB, Socket.io,LLM",
+    image: "/images/OverallTradingImage.png",
     liveLink: "https://trading-platform-frontend-tau.vercel.app/",
   },
   {
