@@ -1,8 +1,4 @@
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -65,7 +61,10 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/tanishq-jaiswal-5650432b6/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/tanishq-jaiswal-5650432b6/"
+            target="_blank"
+          >
             <FaLinkedinIn />
           </a>
         </span>
@@ -82,7 +81,7 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="/Tanishq_NewOne.pdf"
+        href="/Tanishq_Jaiswal_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
