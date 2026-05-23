@@ -34,7 +34,7 @@ const projects: Project[] = [
     image: "/images/bond.png",
   },
   {
-    title: "AI Applications",
+    title: "AI Application",
     category: "AI Conversational Web App",
     tools: "React.js, Node.js, Express.js, Growq AI",
     image: "/images/LLM.png",
