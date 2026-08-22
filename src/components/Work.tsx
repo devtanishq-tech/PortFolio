@@ -13,12 +13,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Airbnb Rental Platform",
-    category: "Full-Stack Web App",
-    tools: "Node.js, Express.js, MongoDB, Cloudinary",
-    image: "/images/Airbnb.png",
-    liveLink:
-      "https://airbnb-inspired-property-rental-platform.onrender.com/listings",
+    title: "AI Application",
+    category: "AI Conversational Web App",
+    tools: "React.js, Node.js, Express.js, Growq AI",
+    image: "/images/LLM.png",
+    liveLink: "https://ai-chat-application-snowy.vercel.app/",
   },
   {
     title: "TradeFlow",
@@ -28,17 +27,19 @@ const projects: Project[] = [
     liveLink: "https://trading-platform-frontend-tau.vercel.app/",
   },
   {
+    title: "Airbnb Rental Platform",
+    category: "Full-Stack Web App",
+    tools: "Node.js, Express.js, MongoDB, Cloudinary",
+    image: "/images/Airbnb.png",
+    liveLink:
+      "https://airbnb-inspired-property-rental-platform.onrender.com/listings",
+  },
+
+  {
     title: "Zoom Video Platform",
     category: "Video Conferencing App",
     tools: "React.js, Node.js, WebRTC, Socket.io",
     image: "/images/bond.png",
-  },
-  {
-    title: "AI Application",
-    category: "AI Conversational Web App",
-    tools: "React.js, Node.js, Express.js, Growq AI",
-    image: "/images/LLM.png",
-    liveLink: "https://ai-chat-application-snowy.vercel.app/",
   },
 ];
 
