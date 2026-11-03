@@ -14,17 +14,17 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "AgentForge-AI-Agentic-AI-Saas-Application",
+    title: "AgentForge-AI",
     category: "AI Conversational Web App",
-    tools: "React.js, Node.js,RAG,MCP,Tool calling",
+    tools: "React.js, Node.js, Generative AI",
     image: "/public/images/AgentForge-AI Platform Showcase.png",
     Github:
       "https://github.com/devtanishq-tech/AgentForge-AI-Agentic-AI-SaaS-Platform",
   },
   {
-    title: "MCP_Powered-GitHub-AI-Agent",
+    title: "MCP-Github-Agent",
     category: "Github,MCP Server,MCP Client,Tool calling ",
-    tools: "Typescript,MCP ,Tool Calling,Database",
+    tools: "Typescript, MCP , Tool Calling,Database",
     image: "/public/images/MCP-GITHUB-SS.png",
     Github: "https://github.com/devtanishq-tech/MCP_Powered-GitHub-AI-Agent",
   },
@@ -127,6 +127,17 @@ const Work = () => {
                             className="live-btn"
                           >
                             Live Link
+                          </a>
+                        )}
+
+                        {project.Github && (
+                          <a
+                            href={project.Github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="live-btn"
+                          >
+                            GitHub
                           </a>
                         )}
                       </div>

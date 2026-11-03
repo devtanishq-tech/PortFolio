@@ -21,7 +21,9 @@ const Career = () => {
               <h3>2026</h3>
             </div>
             <p>
-              Expected graduation in 2026. Coursework includes Data Structures & Algorithms, Object-Oriented Programming, Web Development, DBMS, Software Engineering, Operating Systems, and Computer Networks.
+              Graduated in 2026. Studied Data Structures & Algorithms,
+              Object-Oriented Programming, DBMS, Operating Systems, Computer
+              Networks, Software Engineering, and Web Development.
             </p>
           </div>
           <div className="career-info-box">
@@ -33,7 +35,9 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Actively contributed to peer code reviews and collaborative full-stack development sessions, mentoring peers on system design, REST API patterns, and deployment best practices.
+              Contributed to peer code reviews and collaborative full-stack
+              development sessions. Helped peers understand system design, REST
+              API development, and deployment practices.
             </p>
           </div>
         </div>
