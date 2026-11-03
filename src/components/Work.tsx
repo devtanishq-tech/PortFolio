@@ -17,7 +17,7 @@ const projects: Project[] = [
     title: "AgentForge-AI",
     category: "AI Conversational Web App",
     tools: "React.js, Node.js, Generative AI",
-    image: "/public/images/AgentForge-AI Platform Showcase.png",
+    image: "/images/AgentForge-AI Platform Showcase.png",
     Github:
       "https://github.com/devtanishq-tech/AgentForge-AI-Agentic-AI-SaaS-Platform",
   },
@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "MCP-Github-Agent",
     category: "Github,MCP Server,MCP Client,Tool calling ",
     tools: "Typescript, MCP , Tool Calling,Database",
-    image: "/public/images/MCP-GITHUB-SS.png",
+    image: "/images/MCP-GITHUB-SS.png",
     Github: "https://github.com/devtanishq-tech/MCP_Powered-GitHub-AI-Agent",
   },
   {
