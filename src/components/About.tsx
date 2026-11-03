@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Software Developer with strong foundations in Java, JavaScript, and Data Structures & Algorithms. Experienced in
-          building and deploying full-stack web applications using React.js, Node.js, and MongoDB. Passionate about designing
-          scalable backend systems and solving real-world engineering problems.
+          Software Developer and AI Engineer with experience building full-stack
+          applications and agentic AI systems using Type Script, Node.js, React,
+          LangChain, LangGraph, RAG, and LLM APIs. Experienced in building
+          tool-calling agents, real time applications, REST APIs, and
+          production-oriented backend systems.
         </p>
       </div>
     </div>

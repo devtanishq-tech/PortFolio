@@ -9,15 +9,24 @@ interface Project {
   tools: string;
   image: string;
   liveLink?: string;
+  Github?: string;
 }
 
 const projects: Project[] = [
   {
-    title: "AI Application",
+    title: "AgentForge-AI-Agentic-AI-Saas-Application",
     category: "AI Conversational Web App",
-    tools: "React.js, Node.js, Express.js, Growq AI",
-    image: "/images/LLM.png",
-    liveLink: "https://ai-chat-application-snowy.vercel.app/",
+    tools: "React.js, Node.js,RAG,MCP,Tool calling",
+    image: "/public/images/AgentForge-AI Platform Showcase.png",
+    Github:
+      "https://github.com/devtanishq-tech/AgentForge-AI-Agentic-AI-SaaS-Platform",
+  },
+  {
+    title: "MCP_Powered-GitHub-AI-Agent",
+    category: "Github,MCP Server,MCP Client,Tool calling ",
+    tools: "Typescript,MCP ,Tool Calling,Database",
+    image: "/public/images/MCP-GITHUB-SS.png",
+    Github: "https://github.com/devtanishq-tech/MCP_Powered-GitHub-AI-Agent",
   },
   {
     title: "TradeFlow",
@@ -33,13 +42,6 @@ const projects: Project[] = [
     image: "/images/Airbnb.png",
     liveLink:
       "https://airbnb-inspired-property-rental-platform.onrender.com/listings",
-  },
-
-  {
-    title: "Zoom Video Platform",
-    category: "Video Conferencing App",
-    tools: "React.js, Node.js, WebRTC, Socket.io",
-    image: "/images/bond.png",
   },
 ];
 

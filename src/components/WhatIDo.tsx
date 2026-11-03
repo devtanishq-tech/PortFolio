@@ -90,8 +90,10 @@ const WhatIDo = () => {
               <h3>FRONTEND</h3>
               <h4>Building Interactive UIs</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                Building responsive, interactive, and user-friendly web
+                applications using React and Next.js. Focused on reusable
+                components, modern UI design, and seamless integration with
+                backend services and AI-powered features.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -99,9 +101,10 @@ const WhatIDo = () => {
                 <div className="what-tags">Angular</div>
                 <div className="what-tags">Next.js</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
+                <div className="what-tags">Shade CN </div>
                 <div className="what-tags">Material UI</div>
                 <div className="what-tags">HTML5</div>
+                <div className="what-tags">Vercel AI Component</div>
                 <div className="what-tags">CSS3</div>
               </div>
               <div className="what-arrow"></div>
@@ -126,11 +129,13 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
+              <h3>BACKEND && AI </h3>
               <h4>Scalable Server Architecture</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Developing scalable backend systems, REST APIs, and intelligent
+                AI applications. Experienced in building Agentic AI workflows,
+                Hybrid RAG pipelines, MCP-based tool integrations, and
+                multi-step AI agents using LangChain and LangGraph.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -139,6 +144,9 @@ const WhatIDo = () => {
                 <div className="what-tags">Express.js</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">RAG & RERANKER </div>
+                <div className="what-tags">MCP</div>
+                <div className="what-tags">EVALUATION</div>
                 <div className="what-tags">REST APIs</div>
                 <div className="what-tags">Microservices</div>
                 <div className="what-tags">Python</div>
