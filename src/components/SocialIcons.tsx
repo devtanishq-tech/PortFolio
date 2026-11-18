@@ -81,7 +81,7 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="/November_Tanishq_2026.pdf"
+        href="/Tanishq-November-RESUME.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
