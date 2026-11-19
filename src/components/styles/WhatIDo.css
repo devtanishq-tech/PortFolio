@@ -206,7 +206,14 @@
 }
 .what-content-in {
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.what-content-in::-webkit-scrollbar {
+  display: none;
 }
 .what-content-in h5 {
   font-weight: 300;
